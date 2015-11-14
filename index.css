@@ -1,0 +1,69 @@
+*{  margin: 0;padding: 0;  }
+body{
+    font-size: 12px;
+}
+ul,li{list-style: none;}
+/*顶部LOGO区*/
+#header{
+    position: relative;
+    width: 950px;
+    height: 90px;
+    margin: 0 auto;
+    border: 1px solid blue;
+    padding-top: 30px;
+}
+#header .header-logo{
+    position: absolute;
+    display: block;
+    width: 190px;
+    height: 60px;
+}
+#header div .header-ipt{
+    position: absolute;
+    width: 264px;
+    height: 30px;
+    line-height: 30px;
+    top: 30px;
+    left: 184px;
+    border: 1px solid #c3c3c3;
+    color: #c3c3c3;
+    padding-left: 6px;
+}
+#header div .header-ipt:focus{
+    outline: none;
+}
+#header div a{
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    top:32px;
+    left: 425px;
+}
+#header ul {
+    position: relative;
+    left: 487px;
+    width: 440px;
+    height: 20px;
+    border: 1px solid blue;
+    padding-top: 6px;
+}
+#header ul li{
+    float: left;
+    padding-right: 20px;
+}
+#header ul li a{
+    width: 40px;
+    height: 20px;
+    display: block;
+}
+#header ul li .header-read{  background: url("img/anony_nav_logo5.png") 0 0 no-repeat;  }
+#header ul li .header-movie{  background: url("img/anony_nav_logo5.png") -60px 0 no-repeat;  }
+#header ul li .header-music{  background: url("img/anony_nav_logo5.png") -120px 0 no-repeat;  }
+#header ul li .header-group{  background: url("img/anony_nav_logo5.png") -180px 0 no-repeat;  }
+#header ul li .header-city{  background: url("img/anony_nav_logo5.png") -240px 0 no-repeat;  }
+#header ul li .header-fm{  background: url("img/anony_nav_logo5.png") -340px 0 no-repeat; }
+#header ul li .header-something{  background: url("img/anony_nav_logo5.png") -400px 0 no-repeat;  }
+/*顶部LOGO区结束*/
