@@ -1,15 +1,14 @@
-*{  margin: 0;padding: 0;  }
+*{  margin: 0;padding: 0; }
 body{
     font-size: 12px;
 }
 ul,li{list-style: none;}
-/*顶部LOGO区*/
+/*header区域*/
 #header{
     position: relative;
     width: 950px;
-    height: 90px;
+    height: 60px;
     margin: 0 auto;
-    border: 1px solid blue;
     padding-top: 30px;
 }
 #header .header-logo{
@@ -18,6 +17,7 @@ ul,li{list-style: none;}
     width: 190px;
     height: 60px;
 }
+#header .header-logo:hover{background: none;}
 #header div .header-ipt{
     position: absolute;
     width: 264px;
@@ -45,15 +45,15 @@ ul,li{list-style: none;}
 #header ul {
     position: relative;
     left: 487px;
-    width: 440px;
+    width: 484px;
     height: 20px;
-    border: 1px solid blue;
     padding-top: 6px;
 }
 #header ul li{
     float: left;
-    padding-right: 20px;
+    padding-right: 24px;
 }
+#header ul li:last-child{    padding-right: 0;}
 #header ul li a{
     width: 40px;
     height: 20px;
@@ -63,7 +63,233 @@ ul,li{list-style: none;}
 #header ul li .header-movie{  background: url("img/anony_nav_logo5.png") -60px 0 no-repeat;  }
 #header ul li .header-music{  background: url("img/anony_nav_logo5.png") -120px 0 no-repeat;  }
 #header ul li .header-group{  background: url("img/anony_nav_logo5.png") -180px 0 no-repeat;  }
-#header ul li .header-city{  background: url("img/anony_nav_logo5.png") -240px 0 no-repeat;  }
-#header ul li .header-fm{  background: url("img/anony_nav_logo5.png") -340px 0 no-repeat; }
+#header ul li .header-city{  background: url("img/anony_nav_logo5.png") -340px 0 no-repeat;  }
+#header ul li .header-fm{
+    width: 80px;
+    background: url("img/anony_nav_logo5.png") -240px 0 no-repeat;
+    height: 20px;}
 #header ul li .header-something{  background: url("img/anony_nav_logo5.png") -400px 0 no-repeat;  }
-/*顶部LOGO区结束*/
+/*header区域结束*/
+/*登录区域*/
+#login-background {
+    width: 100%;
+    height: 181px;
+    background-color: #e8edf1;
+}
+#login-background #login-content{
+    position: relative;
+    width: 950px;
+    margin: 0 auto;
+}
+#login-background #login-content .login-left{
+    width: 502px;
+    padding-top: 30px;
+    background: url("img/doubanapp.png") no-repeat;
+    position: absolute;
+    left: 40px;
+    top: 30px;
+    height: 120px;
+}
+#login-background #login-content .login-left .login-left-app{
+    position: absolute;
+    left: 240px;
+    top: 9px;
+    width: 220px;
+    height: 120px;
+}
+#login-background #login-content .login-left .login-left-app p{
+    font-size: 22px;
+    color: #666;
+}
+#login-background #login-content .login-left .login-left-app b{
+    top:36px;
+    font-size: 14px;
+    color: #666;
+    position: absolute;
+    font-weight: 400;
+}
+#login-background #login-content .login-left .login-left-app a{
+    width: 133px;
+    height: 30px;
+    display: block;
+    color: #FFF;
+    background-color: #3ca353;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    top: 72px;
+    border-radius: 3px;
+}
+#login-background #login-content .login-left .login-left-app .login-left-app-pic{
+    position: absolute;
+    left: 138px;
+    top: 72px;
+    display: block;
+    width: 28px;
+    height: 28px;
+}
+#login-background #login-content .login-left .login-left-app .login-left-app-pic img{
+    width: 100%;height: 100%;
+    border: 1px solid #bbc1c6;
+}
+#login-background #login-content .login-left .login-left-app .login-left-app-pic #app-show{
+    border: 1px solid #bbc1c6;
+    padding: 20px;
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top :0;
+    left: 0;
+    background-color: #FFF;
+    display: none;
+}
+#login-background #login-content .login-left .login-left-app .login-left-border{
+    height: 80px;
+    width: 20px;
+    border-left:1px solid #d7dce1;
+    position: absolute;
+    left: 220px;
+    top: 5px;
+}
+#login-background #login-content .login-right{
+    position: absolute;
+    width: 280px;
+    height: 150px;
+    left:560px;
+    top: 18px;
+}
+#login-background #login-content .login-right .email{
+    width: 168px;
+    height: 34px;
+    text-align: 34px;
+    padding-left: 10px;
+    color: #CCC;
+    border: none;
+    outline: none;
+}
+#login-background #login-content .login-right .password{
+    width: 168px;
+    height: 34px;
+    text-align: 34px;
+    padding-left: 10px;
+    color: #CCC;
+    position: absolute;
+    top: 44px;
+    left: 0;
+    border: none;
+    outline: none;
+}
+#login-background #login-content .login-right a{
+    position: absolute;
+    top: 56px;
+    left: 189px;
+}
+#login-background #login-content .login-right .checkbox{
+    position: absolute;
+    left: 0;
+    top: 93px;
+    width: 200px;
+}
+#login-background #login-content .login-right .checkbox span{
+    position: absolute;
+    left: 17px;
+    top: 0;
+}
+#login-background #login-content .login-right .login{
+    width: 70px;
+    height: 30px;
+    background-color: #3ba354;
+    position: absolute;
+    left: 0;
+    top:118px;
+    text-align: center;
+    line-height: 30px;
+    color: #FFF;
+    border-radius: 3px;
+}
+#login-background #login-content .login-right .login:hover{ background: #1c9439; }
+#login-background #login-content .login-right .reg{
+    width: 70px;
+    height: 30px;
+    position: absolute;
+    border: 1px solid #ef735f;
+    color: #ef735f;
+    left: 80px;
+    top:118px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 3px;
+}
+#login-background #login-content .login-right .reg:hover{background: none;}
+/*登录区域结束*/
+/*banner区域*/
+.midel-banner-flag{
+    margin: 35px auto 0;
+    width: 950px;
+}
+/*banner区域结束*/
+/*热门内容*/
+#hot-content{
+    position: relative;
+    width: 950px;
+    height: 536px;
+    margin:  0 auto;
+    border: 1px solid red;
+}
+#hot-content .title-h2-flag{
+    position: absolute;
+    top: 9px;
+}
+#hot-content .hot-content-left{
+    width: 370px;
+    position: absolute;
+    left: 0;
+    top: 40px;
+}
+#hot-content .hot-content-left li{
+    width: 180px;
+    height: 218px;
+    float: left;
+}
+#hot-content .hot-content-left li div{
+    width: 160px;
+}
+#hot-content .hot-content-left li .hot-content-left-pic:hover{
+    background: none;
+}
+#hot-content .hot-content-left  li .hot-content-left-picname{
+    width: 156px;
+    line-height:18px;
+}
+#hot-content .hot-content-left li span{
+    position: relative;
+    left: 5px;
+    color: #999999;
+}
+/*热门内容结束*/
+
+
+
+
+
+
+/*共公样式*/
+a{
+    text-decoration: none;
+    color: #3377aa;
+}
+a:hover{
+    background-color: #3377aa;
+    color: #FFF;
+}
+.midel-banner{
+    width: 950px;
+    height: 90px;
+    margin: 0 auto;
+    position: relative;
+}
+.title-h2{
+    color: #072;
+    font: 15px Arial,Helvetica,sans-serif;
+    font-weight: 400;
+}
