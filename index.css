@@ -2,7 +2,9 @@
 body{
     font-size: 12px;
 }
+img{border: none;}
 ul,li{list-style: none;}
+
 /*header区域*/
 #header{
     position: relative;
@@ -16,8 +18,13 @@ ul,li{list-style: none;}
     display: block;
     width: 190px;
     height: 60px;
+
 }
-#header .header-logo:hover{background: none;}
+
+#header .header-logo:hover{
+    background: none;
+
+}
 #header div .header-ipt{
     position: absolute;
     width: 264px;
@@ -36,16 +43,22 @@ ul,li{list-style: none;}
     display: block;
     position: absolute;
     width: 30px;
-    height: 30px;
-    text-align: center;
-    line-height: 30px;
+    height: 20px;
     top:32px;
     left: 425px;
+}
+#header div a img{
+    position: absolute;
+    left: 8px;
+    top: 8px;
+}
+#header div a:hover{
+    background: none;
 }
 #header ul {
     position: relative;
     left: 487px;
-    width: 484px;
+    width: 494px;
     height: 20px;
     padding-top: 6px;
 }
@@ -70,6 +83,9 @@ ul,li{list-style: none;}
     height: 20px;}
 #header ul li .header-something{  background: url("img/anony_nav_logo5.png") -400px 0 no-repeat;  }
 /*header区域结束*/
+
+
+
 /*登录区域*/
 #login-background {
     width: 100%;
@@ -161,7 +177,7 @@ ul,li{list-style: none;}
 #login-background #login-content .login-right .email{
     width: 168px;
     height: 34px;
-    text-align: 34px;
+    line-height: 34px;
     padding-left: 10px;
     color: #CCC;
     border: none;
@@ -170,7 +186,7 @@ ul,li{list-style: none;}
 #login-background #login-content .login-right .password{
     width: 168px;
     height: 34px;
-    text-align: 34px;
+    line-height: 34px;
     padding-left: 10px;
     color: #CCC;
     position: absolute;
@@ -188,12 +204,17 @@ ul,li{list-style: none;}
     position: absolute;
     left: 0;
     top: 93px;
-    width: 200px;
+    width: 100px;
 }
-#login-background #login-content .login-right .checkbox span{
+#login-background #login-content .login-right .checkbox input{
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+    float: left;
+}
+#login-background #login-content .login-right .checkbox input p{
     position: absolute;
-    left: 17px;
-    top: 0;
+    top: -2px;
 }
 #login-background #login-content .login-right .login{
     width: 70px;
@@ -210,14 +231,14 @@ ul,li{list-style: none;}
 #login-background #login-content .login-right .login:hover{ background: #1c9439; }
 #login-background #login-content .login-right .reg{
     width: 70px;
-    height: 30px;
+    height: 28px;
     position: absolute;
     border: 1px solid #ef735f;
     color: #ef735f;
     left: 80px;
     top:118px;
     text-align: center;
-    line-height: 30px;
+    line-height: 28px;
     border-radius: 3px;
 }
 #login-background #login-content .login-right .reg:hover{background: none;}
@@ -234,11 +255,9 @@ ul,li{list-style: none;}
     width: 950px;
     height: 536px;
     margin:  0 auto;
-    border: 1px solid red;
 }
 #hot-content .title-h2-flag{
-    position: absolute;
-    top: 9px;
+    padding-top: 8px;
 }
 #hot-content .hot-content-left{
     width: 370px;
@@ -266,8 +285,186 @@ ul,li{list-style: none;}
     left: 5px;
     color: #999999;
 }
-/*热门内容结束*/
+#hot-content .hot-content-middle{
+    position: absolute;
+    left: 380px;
+    top: 45px;
+    width: 280px;
+    height: 400px;
+}
+#hot-content .hot-content-middle div p{
+    color:#666666 ;
+}
+#hot-content .hot-content-middle span{
+    display: block;
+    color: #999999;
+    margin-top: 7px;
+}
+#hot-content .hot-content-middle p{
+    margin-top: 7px;
+}
+#hot-content .hot-content-middle .midel-ul{
+    margin-top: 19px;
+}
+#hot-content .hot-content-middle .midel-ul li{
+    margin-bottom: 19px;
+}
+#hot-content .hot-content-right{
+    position: absolute;
+    left: 686px;
+    top: 16px;
+}
+#hot-content .hot-content-right .title-h2-flag{
+    position: absolute;
+    left: 0 ;
+}
+#hot-content  .hot-content-right .picflag:hover{
+    background: none;
+}
+#hot-content .hot-content-right h2{
+    position: absolute;
+    top: 123px;
+}
 
+#hot-content .hot-content-right span{
+    color: #666;
+    font-size: 12px;
+}
+#hot-content .hot-content-right ul{
+    position: absolute;
+    top: 154px;
+    left: 0;
+}
+#hot-content .hot-content-right ul li {
+    margin-bottom: 16px;
+}
+#hot-content .hot-content-right ul span{
+    display: block;
+    margin-top: 10px;
+}
+#hot-content .hot-content-right ul p{
+    margin-top: 7px;
+    color: #999999;
+}
+/*热门内容结束*/
+/*电影区*/
+#movie-background{
+    position: relative;
+    width: 100%;
+    height: 719px;
+    padding-top: 39px;
+    background: #f7f7f7;
+}
+#movie-background .movie-content{
+    position: relative;
+    width: 950px;
+    margin: 0 auto;
+}
+
+#movie-background .movie-content .middle ul{
+    width: 540px;
+    position: absolute;
+    left: 17px;
+    top: 36px;
+}
+#movie-background .movie-content .middle ul li{
+    width: 117px;
+    height: 264px;
+    float: left;
+    position: relative;
+}
+#movie-background .movie-content .middle ul li div{
+    text-align: center;
+    width: 100px;
+    top: 159px;
+    position: absolute;
+}
+#movie-background .movie-content .middle ul li .pic:hover{
+    background: none;
+}
+#movie-background .movie-content .middle ul li div{
+    position: absolute;
+    left: 0;
+}
+#movie-background .movie-content .middle ul li div .aflag{
+    color: #333333;
+    font-size: 13px;
+
+}
+#movie-background .movie-content .middle ul li div .aflag:hover{
+    color: #FFF;
+}
+#movie-background .movie-content .middle ul p{
+    display: block;
+    margin-top: 10px;
+    height: 11px;
+    margin-left: 10px;
+    background: url("img/midstars.gif")  no-repeat;
+}
+#movie-background .movie-content .middle ul p span{
+    display: block;
+    margin-left: 50px;
+    color: #f40;
+}
+#movie-background .movie-content .middle ul .btn{
+    color: #FFF;
+    display: block;
+    width: 68px;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    background: #1c8bd0;
+    margin: 9px auto;
+}
+#movie-background .movie-content .middle ul .btn:hover{
+    background: #047fcb;
+}
+#movie-background .movie-content .right .up ul {
+    margin-top: 21px;
+}
+#movie-background .movie-content .right .up ul li {
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 11px;
+}
+#movie-background .movie-content .right .down{
+    position: absolute;
+    top: 203px;
+    left: 0;
+}
+#movie-background .movie-content .right .down ul{
+    margin-top: 21px;
+
+}
+#movie-background .movie-content .right .down ul li{
+    font:12px Helvetica,Arial,sans-serif ;
+    border-bottom: 1px solid #eaeaea;
+    height: 20px;
+    margin-bottom: 10px;
+}
+#movie-background .movie-content .right .down ul li a{
+    margin-left: 8px;
+}
+#movie-background .midel-banner-movie{
+    position: absolute;
+    top: 588px;
+    left: 0 ;
+}
+/*电影区结束*/
+/*小组区域*/
+#group{
+    position: relative;
+    width: 950px;
+    height: 595px;
+    margin: 39px auto 0;
+}
+#group a{
+    color: #017a85;
+}
+#group a:hover{
+    color: #FFF;
+}
+/*小组区域结束*/
 
 
 
@@ -292,4 +489,44 @@ a:hover{
     color: #072;
     font: 15px Arial,Helvetica,sans-serif;
     font-weight: 400;
+}
+.title-h2 span{
+    color: #666;
+    font-size: 12px;
+}
+.left{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 121px;
+    border: 1px solid blue;
+}
+ .left ul{
+    position: absolute;
+    top: 42px;
+    left: 0;
+}
+ .left ul li a{
+    font-size: 14px;
+}
+ .left ul li{
+    margin-bottom: 13px;
+}
+.middle{
+    position: absolute;
+    left: 121px;
+    top:0;
+    width: 566px;
+    border: 1px solid blue;
+}
+.right{
+    position: absolute;
+    left: 686px;
+    top:0;
+    width: 265px;
+    border: 1px solid blue;
+}
+.title-big{
+    font-size: 24px;
+    color: #2277aa;
 }
