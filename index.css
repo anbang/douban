@@ -464,7 +464,153 @@ ul,li{list-style: none;}
 #group a:hover{
     color: #FFF;
 }
+#group .middle ul{
+    position: absolute;
+    top:32px;
+    left: 0;
+}
+#group .middle ul li{
+    position: relative;
+    float: left;
+    width: 279px;
+    height: 90px;
+}
+#group .middle ul li div{
+    position: absolute;
+    top :3px;
+    left:64px;
+}
+#group .middle ul li p{
+    color: #999999;
+    margin-top: 13px;
+}
+#group .right ul {
+    position: absolute;
+    top: 35px;
+}
+#group .right ul li .righr-title{
+    font-size: 14px;
+    color: #333333;
+}
+#group .right ul .righr-title:hover{
+    color: #FFF;
+}
 /*小组区域结束*/
+/*读书区域*/
+#reade-background{
+    width: 100%;
+    height: 655px;
+    background: #f7f7f7;
+}
+#reade-background .reade{
+    width: 950px;
+    height: 617px;
+    margin: 0 auto;
+    position: relative;
+    top: 38px;
+    left: 0;
+}
+#reade-background .reade a{
+    color: #4a2f14;
+}
+#reade-background .reade a:hover{
+    color: #fff;
+}
+#reade-background .reade .reade-btn-list{
+    position: absolute;
+    top: 195px;
+}
+.reade-btn{
+    background: url("img/app_icons_50_7.jpg") 0 0 no-repeat;
+}
+#reade-background .reade .middle ul{
+    position: absolute;
+    top: 36px;
+    left: 0px;
+}
+#reade-background .reade .middle ul li{
+    text-align: center;
+    width: 133px;
+    height: 265px;
+    position: relative;
+    float: left;
+}
+#reade-background .reade .middle ul li span {
+    display: block;
+    margin-top: 16px;
+}
+#reade-background .reade .middle ul li p{
+    margin-top: 6px;
+}
+#reade-background .reade .middle ul li .btn{
+    display: block;
+    text-align: center;
+    line-height: 23px;
+    width: 68px;
+    height: 23px;
+    background: #999a95;color: #FFF;
+    position: absolute;
+    left: 32px;
+    top: 200px;
+}
+#reade-background .reade .middle .down{
+    position: relative;
+    top: 290px;
+    left: 0;
+}
+#reade-background .reade .middle  .down .sprice{
+    margin-top: 5px;
+    color: #999a95;
+}
+#reade-background .reade .middle  .down  .btn{
+    position: absolute;
+    top: 220px;
+}
+#reade-background .reade .right ul{
+    position: absolute;
+    top: 21px;
+    left: 0;
+}
+#reade-background .reade .right ul li{
+    width: 260px;
+    height: 45px;
+    padding-top: 15px;
+    border-bottom: 1px solid #eaeaea;
+}
+#reade-background .reade .right ul span{
+    color: #999a95;
+}
+#reade-background .reade .right ul a{
+    margin-right: 14px;
+    line-height: 1.8em;
+}
+/*读书区域结束*/
+
+/*音乐区域*/
+#music{
+    position: relative;
+    width: 950px;
+    height: 606px;
+    margin: 39px auto 0;
+}
+#music a{
+     color: #555d53;
+ }
+#music a:hover{
+    color: #FFF;
+}
+#music .left .music-btn-list{
+    position: absolute;
+    left: 0;
+    top: 325px;
+}
+#music .left .music-btn-list li .music-fm{
+    background: url("img/app_icons_50_7.jpg") -250px 0 no-repeat;
+}
+#music .left .music-btn-list li .music-per{
+    background: url("img/app_icons_50_7.jpg") -50px 0 no-repeat;
+}
+/*音乐区域结束*/
 
 
 
@@ -505,6 +651,7 @@ a:hover{
     position: absolute;
     top: 42px;
     left: 0;
+     width: 95px;
 }
  .left ul li a{
     font-size: 14px;
@@ -529,4 +676,31 @@ a:hover{
 .title-big{
     font-size: 24px;
     color: #2277aa;
+}
+/*右侧列表的a*/
+.right-list-a{
+    float: left;
+    margin-top: 6px;
+    margin-bottom: 12px;
+}
+.right-list-a a{
+    margin-right: 14px;
+    line-height: 1.6em;
+}
+.imgA:hover{
+    background: none;
+}
+.btn-list li{
+    margin-bottom: 19px;
+}
+.btn-list li .btnimg-list{
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: 3px 2px 1px #cccccc;
+    margin-bottom: 2px;
+}
+.btn-list li .btn-a{
+    font-size: 12px;
 }
