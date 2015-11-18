@@ -599,6 +599,12 @@ ul,li{list-style: none;}
 #music a:hover{
     color: #FFF;
 }
+#music .left  .title-big{
+    color: orange;
+}
+#music .left  .title-big:hover{
+    color: #FFF;
+}
 #music .left .music-btn-list{
     position: absolute;
     left: 0;
@@ -609,6 +615,118 @@ ul,li{list-style: none;}
 }
 #music .left .music-btn-list li .music-per{
     background: url("img/app_icons_50_7.jpg") -50px 0 no-repeat;
+}
+#music .middle .up ul {
+    position: absolute;
+    left: 0px;
+    top: 35px;
+}
+#music .middle .up ul li{
+    width: 136px;
+    height: 193px;
+    text-align: center;
+    position: relative;
+    float: left;
+}
+#music .middle .up ul li .imgA{
+    width: 80px;
+    height: 80px;
+}
+#music .middle .up ul li .music-name {
+    margin-top: 13px;
+    margin-bottom: 10px;
+}
+
+#music .middle .up ul li .star-img {
+    display: block;
+    width: 55px;
+    height: 11px;
+    margin-top: 6px;
+    margin-left: 25px;
+    background: url("img/midstars.gif") 0 0 no-repeat;
+}
+#music .middle .up ul li .star-img span{
+    color: #ff4457;
+    position: absolute;
+    left: 89px;
+}
+#music .middle .down{
+    position: absolute;
+    left: 0;
+    top: 405px;
+}
+#music .middle .down ul{
+    position: absolute;
+    top: 31px;
+    left: 0;
+    width: 550px;
+}
+#music .middle .down ul li {
+    position: relative;
+    width: 136px;
+    height: 150px;
+    text-align: center;
+    float: left;
+}
+#music .middle .down ul li p{
+    margin-top: 18px;
+}
+#music .middle .down ul li .star-move{
+    position: absolute;
+    left: 44px;
+    top: 18px;
+}
+#music .right ul{
+    position: absolute;
+    left: 0;
+    top:36px ;
+}
+#music .right ul li{
+    width: 300px;
+    height: 77px;
+    position: relative;
+}
+#music .right ul li div span{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#music .right ul li div .imgA{
+    position: absolute;
+    top:0;
+    left: 19px;
+}
+#music .right ul li .righr-div{
+    position: absolute;
+    left: 77px;
+    width: 220px;
+    height: 60px;
+}
+#music .right ul li .righr-div img:hover{
+    background: #000;
+}
+#music .right ul li .righr-div a{
+    position: absolute;
+    top: 4px;
+    display: block;
+}
+#music .right ul li .righr-div  p{
+    position: absolute;
+    top: 27px;
+    width: 200px;
+    height: 30px;
+    color: #999999;
+}
+#music .right ul li .righr-div  p span{
+    padding-left: 30px;
+    display: block;
+}
+#music .right ul li .righr-div  b{
+    font-weight: 400;
+    color: #999999;
+    position: absolute;
+    top: 47px;
+    left: 0;
 }
 /*音乐区域结束*/
 
