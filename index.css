@@ -729,6 +729,201 @@ ul,li{list-style: none;}
     left: 0;
 }
 /*音乐区域结束*/
+/*市集区域*/
+#shiji-background{
+    position: relative;
+    width: 100%;
+    height: 704px;
+    background-color: #f7f7f7;
+}
+#shiji-background #shiji{
+    position: relative;
+    width: 950px;
+    height: 665px;
+    margin: 0 auto ;
+    top: 39px;
+    left: 0;
+}
+#shiji-background #shiji .left ul li a{
+    color: #343434;
+}
+#shiji-background #shiji .left ul li a:hover{
+    color: #FFF;
+}
+#shiji-background #shiji .middle .middle-left{
+    position: absolute;
+    top: 46px;
+    left: 0;
+    width: 255px;
+    height: 600px;
+}
+#shiji-background #shiji .middle .middle-left li{
+    width: 252px;
+    height: 302px;
+    position: relative;
+}
+#shiji-background #shiji .middle .middle-left li div{
+    position: absolute;
+    left:0;
+    top: 260px;
+    width: 250px;
+}
+#shiji-background #shiji .middle .middle-left li div a{
+    font-size: 14px;
+}
+#shiji-background #shiji .middle .middle-left li div span{
+    position: absolute;
+    right: 0px;
+    font-size: 14px;
+    color: #6a6a6a;
+}
+#shiji-background #shiji .middle .middle-right{
+    position: absolute;
+    top: 47px;
+    left: 270px;
+}
+#shiji-background #shiji .middle ul  li{
+    float: left;
+    width: 132px;
+    height: 140px;
+}
+#shiji-background #shiji .middle ul  li .middle-right-title{
+    width:100px;
+    display:block;
+    overflow:hidden;
+    word-break:keep-all;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+
+}
+#shiji-background #shiji .middle .middle-right-2{
+    position: absolute;
+    top: 351px;
+    left: 270px;
+}
+#shiji-background #shiji ul{
+    position: absolute;
+    left: 0;
+    top:46px;
+}
+#shiji-background #shiji .right  ul li {
+    position: relative;
+    width: 270px;
+    height: 77px;
+}
+#shiji-background #shiji .right  ul li div{
+    position: absolute;
+    left: 75px;
+    top: 5px;
+}
+#shiji-background #shiji .right  ul li div p{
+    color: #6a6a6a;
+}
+/*市集区域结束*/
+/*一拍一*/
+#one-to-one{
+    position: relative;
+    width: 950px;
+    height: 642px;
+    margin: 0 auto;
+}
+#one-to-one a{
+    color: #837960;
+}
+#one-to-one .left{
+    position: absolute;
+    margin-top: 38px;
+}
+#one-to-one .left .title-big{
+    color: #ff6666;
+}
+#one-to-one .left .title-big:hover{
+    color: #FFF;
+}
+#one-to-one .middle{
+    position: absolute;
+    margin-top: 38px;
+}
+#one-to-one .middle .middle-up ul{
+    position: absolute;
+    left: 0;
+    top: 37px;
+
+}
+#one-to-one .middle  ul li{
+    width: 275px;
+    height: 260px;
+    position: relative;
+    float: left;
+}
+#one-to-one .middle  ul a,#one-to-one .middle .middle-up ul span{
+    font-size: 14px;
+}
+#one-to-one .middle  ul a:hover{
+    background: none;
+}
+#one-to-one .middle  ul span{
+    position: absolute;
+    right:11px;
+    color: #b2a599;
+}
+#one-to-one .middle .middle-down .title-h2{
+    position: absolute;
+    left: 0;
+    top: 306px;
+
+}
+#one-to-one .middle .middle-down ul{
+    position: absolute;
+    left: 0;
+    top: 337px;
+
+}
+#one-to-one  .right{
+    position: absolute;
+    margin-top: 38px;
+}
+#one-to-one  .right ul{
+    position: absolute;
+    top: 40px;
+}
+#one-to-one  .right ul li{
+    position: relative;
+    width: 263px;
+    height: 76px;
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 14px;
+}
+#one-to-one  .right ul li p{
+    color: #999999;
+    font-size: 14px;
+}
+#one-to-one  .right ul li div{
+    position: absolute;
+    top: 28px;
+}
+#one-to-one  .right ul li div a{
+    float:left;
+    margin-right: 26px;
+    margin-bottom: 0.6em;
+}
+#one-to-one  .right ul li div a:hover{
+    color: #FFF;
+}
+#one-to-one  .right .weixin{
+    position: absolute;
+    top: 246px;
+    left: 6px;
+}
+#one-to-one  .right .weixin p{
+    color:#555555;
+}
+/*一拍一区域*/
+
+/*同城区域*/
+/*同城区域结束*/
+
+
 
 
 
