@@ -921,7 +921,121 @@ ul,li{list-style: none;}
 /*一拍一区域*/
 
 /*同城区域*/
+#city-background{
+    width: 100%;
+    height: 380px;
+    background-color: #f7f7f7;
+    position: relative;
+}
+#city-background #city{
+    position: relative;
+    margin: 0 auto;
+    width: 950px;
+    height: 340px;
+    top: 40px;
+}
+#city-background #city a{
+    color: #664433;
+}
+#city-background #city a:hover{
+    color: #FFF;
+}
+#city-background #city .left .title-big{
+    color: #ff6666;
+}
+#city-background #city .left .title-big:hover{
+    color: #fff;
+}
+#city-background #city .middle .up{
+    position: absolute;
+    top: 36px;
+    left: 0;
+}
+#city-background #city .middle ul li{
+    position: relative;
+    width: 270px;
+    height: 155px;
+    float: left;
+}
+#city-background #city .middle ul li div{
+    width: 170px;
+    height: 125px;
+    position: absolute;
+    left: 82px;
+    top: 0;
+}
+#city-background #city .middle ul li div p{
+    color: #666666;
+    margin-top: 6px;
+}
+
+#city-background #city .middle .down{
+    position: absolute;
+    top: 192px;
+    left: 0;
+}
+
+#city-background #city .middle .down span{
+    display: block;
+    width: 54px;
+    height: 17px;
+    line-height: 17px;
+    text-align: center;
+    border-radius: 5px;
+    background: #ff8263;
+    color: #FFF;
+}
+#city-background #city .right  ul{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 250px;
+    height: 270px;
+}
+#city-background #city .right  ul li{
+    width: 250px;
+    height: 54px;
+    position: relative;
+}
+#city-background #city .right  ul li .righr-title{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 14px;
+}
+#city-background #city .right  ul li .right-list-a{
+    position: absolute;
+    top: 15px;
+    left: 0;
+}
+#city-background #city .right  ul li .right-list-a a{
+    margin-right: 10px;
+}
 /*同城区域结束*/
+
+/*底部区域*/
+#foot{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    margin:  0 auto;
+    top: 30px;
+
+}
+#foot .btn-img{
+    width: 950px;
+    margin:  0 auto;
+}
+#foot .btn-cont{
+    position: relative;
+    top: 36px;
+    left: 0;
+    width: 950px;
+    margin: 0 auto;
+    border-top:1px dashed #CCC ;
+
+}
+/*底部区域结束*/
 
 
 
@@ -989,6 +1103,7 @@ a:hover{
 .title-big{
     font-size: 24px;
     color: #2277aa;
+    cursor: pointer;
 }
 /*右侧列表的a*/
 .right-list-a{
