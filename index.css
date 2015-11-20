@@ -984,6 +984,7 @@ ul,li{list-style: none;}
     border-radius: 5px;
     background: #ff8263;
     color: #FFF;
+    margin-top: 5px;
 }
 #city-background #city .right  ul{
     position: absolute;
@@ -1035,6 +1036,27 @@ ul,li{list-style: none;}
     border-top:1px dashed #CCC ;
 
 }
+#foot .btn-cont .btn-left{
+    position: absolute;
+    top: 19px;
+}
+#foot .btn-cont .btn-left p{
+    color: #999;
+    font: 12px Helvetica,Arial,sans-serif;
+}
+#foot .btn-cont .btn-left p.gongwang{
+    margin-top: 3px;
+    border: 1px solid red;
+}
+#foot .btn-cont .btn-right{
+    position: absolute;
+    right: 0;
+    top: 19px;
+}
+#foot .btn-cont .btn-right ul li{
+    float: right;
+    margin-left: 10px;
+}
 /*底部区域结束*/
 
 
@@ -1072,7 +1094,6 @@ a:hover{
     left: 0;
     top: 0;
     width: 121px;
-    border: 1px solid blue;
 }
  .left ul{
     position: absolute;
@@ -1091,14 +1112,12 @@ a:hover{
     left: 121px;
     top:0;
     width: 566px;
-    border: 1px solid blue;
 }
 .right{
     position: absolute;
     left: 686px;
     top:0;
     width: 265px;
-    border: 1px solid blue;
 }
 .title-big{
     font-size: 24px;
