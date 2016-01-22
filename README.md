@@ -2,5 +2,5 @@
 
 兼容到IE6；
 
-在线预览地址：http://broszhu.com/works/douban/index.html
+在线预览地址：http://taobao.fm/works/douban/index.html
 ![](http://i.imgur.com/CVjF5Ok.jpg)
